@@ -71,6 +71,7 @@ public class StockAccount {
 		StockPrice = noOfShare * sharePrice;
 		System.out.println("\nValue of Stock " + shareName + " is = " + StockPrice);
 		scanner.close();
+		
 	}
 
 }
