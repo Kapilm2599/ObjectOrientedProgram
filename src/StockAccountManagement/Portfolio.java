@@ -15,6 +15,7 @@ public class Portfolio extends StockAccount {
 			stock.addShare();
 			TotalValue += StockPrice;
 		}
+		
 		System.out.println("\nTotal Value is " + TotalValue);
 	}
 
